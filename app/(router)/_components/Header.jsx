@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="p-4 bg-white ml-6 flex justify-between">
+    <div className=" ml-3 rounded-xl p-4 bg-white ml-6 flex justify-between">
       {/* Search Bar */}
       <div className="flex gap-2 border p-2 rounded-md">
         <Search className="h-5 w-5" />
